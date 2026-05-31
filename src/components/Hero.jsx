@@ -77,7 +77,7 @@ export default function Hero({ scrollTo }) {
         </div>
 
         <p className="text-text-muted text-base leading-relaxed max-w-xl mx-auto mb-11 font-light">
-          Enthusiastic software developer with a strong foundation in full stack development and AI/ML.
+          Enthusiastic software developer with a strong foundation in full stack development and having basic exposure to the AI/ML.
           Ex-intern at{" "}
           <span className="text-accent-cyan font-medium">SAP Labs, Bengaluru</span>{" "}
           — built RAG systems and high-performance FastAPI backends.

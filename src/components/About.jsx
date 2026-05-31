@@ -33,7 +33,7 @@ export default function About() {
         className={`grid grid-cols-2 gap-16 items-center transition-all duration-700
           ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
       >
-        {/* Left — text */}
+        {/* Profile-info */}
         <div>
           <p className="font-mono text-[11px] text-accent-cyan tracking-widest mb-3">// about me</p>
           <h2 className="font-syne font-extrabold text-4xl text-text-primary leading-tight mb-6">
@@ -51,7 +51,7 @@ export default function About() {
             traditional engineering with cutting-edge AI.
           </p>
 
-          {/* Stats grid */}
+          {/* Status */}
           <div className="grid grid-cols-2 gap-3.5 mb-7">
             {STATS.map(([n, l]) => (
               <div key={l} className="bg-bg-card border border-border rounded-xl p-4">
