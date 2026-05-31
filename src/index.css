@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #0d1117;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0d1117;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2d333b;
+    border-radius: 3px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #484f58;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@layer utilities {
+  .animate-fadeUp {
+    animation: fadeUp 0.9s ease forwards;
+  }
+
+  .grid-bg {
+    background-image:
+      linear-gradient(#ffffff05 1px, transparent 1px),
+      linear-gradient(90deg, #ffffff05 1px, transparent 1px);
+    background-size: 52px 52px;
+  }
+
+  .skill-bar-fill {
+    transition: width 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .card-hover {
+    transition: all 0.3s ease;
+  }
+}
