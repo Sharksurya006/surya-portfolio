@@ -134,7 +134,7 @@ export default function Contact() {
         {/* LinkedIn + Resume */}
         <div className="flex gap-3 justify-center mt-7 flex-wrap">
           <a
-            href="https://linkedin.com/in/Surya-S"
+            href="https://www.linkedin.com/in/surya-s-0a9121268/"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2.5 bg-bg-primary border border-border rounded-xl px-6 py-3 font-mono text-sm text-text-faint hover:border-[#0A66C2]/50 hover:text-[#0A66C2] transition-all duration-200"
