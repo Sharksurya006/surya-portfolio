@@ -142,7 +142,7 @@ export default function Contact() {
             <span className="text-lg">💼</span> LinkedIn
           </a>
           <a
-            href="/Surya_S_Resume.pdf"
+            href="/Updated-Resume-Surya.pdf"
             download="Surya_S_Resume.pdf"
             className="flex items-center gap-2.5 bg-accent-cyan/5 border border-accent-cyan/25 rounded-xl px-6 py-3 font-mono text-sm text-accent-cyan hover:bg-accent-cyan/15 hover:border-accent-cyan/60 transition-all duration-200"
           >

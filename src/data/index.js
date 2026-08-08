@@ -86,6 +86,23 @@ export const PROJECTS = [
     color: "orange",
     icon: "💼",
   },
+  {
+  title: "Agentic AI Chatbot with RAG",
+  tag: "AI · Backend",
+  desc: "Autonomous Agentic AI chatbot built with LangGraph featuring persistent memory, dynamic tool calling, multi-session conversations, and checkpoint-based state management. Integrated RAG with vector embeddings and FAISS for context-aware responses from custom knowledge bases, along with external API integration and streaming responses.",
+  tech: [
+    "Python",
+    "LangGraph",
+    "LangChain",
+    "Groq API",
+    "FAISS",
+    "SQLite",
+    "Streamlit",
+    "RAG"
+  ],
+  color: "purple",
+  icon: "🤖",
+},
 ];
 
 export const EDUCATION = [
