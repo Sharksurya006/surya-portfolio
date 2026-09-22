@@ -87,6 +87,24 @@ export const PROJECTS = [
     icon: "💼",
   },
   {
+  title: "Enterprise HR Agentic RAG Copilot",
+  tag: "AI · Full-Stack",
+  desc: "Self-correcting agentic RAG system built with LangGraph that routes HR queries, retrieves from a private Pinecone knowledge base, grades its own evidence with an LLM judge, and falls back to live web search with automatic query rewriting when retrieval is weak. Guardrailed on both input and output with NeMo Guardrails, with full SQLite audit logging of every query, source, and safety decision. Ships with a production React + FastAPI chat UI and admin-gated document ingestion, containerized for single-command deployment.",
+  tech: [
+    "Python",
+    "LangGraph",
+    "LangChain",
+    "FastAPI",
+    "Pinecone",
+    "Gemini",
+    "NeMo Guardrails",
+    "React",
+    "Docker"
+  ],
+  color: "blue",
+  icon: "🏢",
+},
+  {
   title: "Agentic AI Chatbot with RAG",
   tag: "AI · Backend",
   desc: "Autonomous Agentic AI chatbot built with LangGraph featuring persistent memory, dynamic tool calling, multi-session conversations, and checkpoint-based state management. Integrated RAG with vector embeddings and FAISS for context-aware responses from custom knowledge bases, along with external API integration and streaming responses.",

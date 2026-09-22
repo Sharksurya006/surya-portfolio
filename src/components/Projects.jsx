@@ -6,10 +6,17 @@ const COLOR_MAP = {
   cyan:   { hex: "#00ffc8", text: "text-accent-cyan",   badge: "bg-accent-cyan/10 border-accent-cyan/30 text-accent-cyan",   glow: "hover:border-accent-cyan/40 hover:shadow-accent-cyan/10" },
   purple: { hex: "#7c6ffa", text: "text-accent-purple", badge: "bg-accent-purple/10 border-accent-purple/30 text-accent-purple", glow: "hover:border-accent-purple/40 hover:shadow-accent-purple/10" },
   orange: { hex: "#fa8231", text: "text-accent-orange", badge: "bg-accent-orange/10 border-accent-orange/30 text-accent-orange", glow: "hover:border-accent-orange/40 hover:shadow-accent-orange/10" },
+  blue: {
+    hex: "#3b82f6",
+    text: "text-blue-400",
+    badge: "bg-blue-400/10 border-blue-400/30 text-blue-400",
+    glow: "hover:border-blue-400/40 hover:shadow-blue-400/10"
+  }
 };
 
 function ProjectCard({ project, i }) {
   const [ref, inView] = useInView(0.1);
+  console.log(project.title, project.color);
   const c = COLOR_MAP[project.color];
 
   return (
