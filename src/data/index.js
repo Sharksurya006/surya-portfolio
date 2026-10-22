@@ -31,15 +31,23 @@ export const SKILLS = {
   ],
 };
 
-export const EXPERIENCE = [
+export const WORK_EXPERIENCE = [
   {
     role: "Software Development Engineer II (SDE-2)",
     company: "Nierra Labs",
     location: "Remote",
     color: "purple",
     icon: "🚀",
-    points: [],
+    points: [
+      "Designed and built autonomous agentic AI systems using LangGraph and LangChain for multi-step reasoning, tool orchestration, and task automation.",
+      "Developed production-grade RAG pipelines with vector databases (Pinecone/FAISS) for context-aware retrieval and knowledge grounding.",
+      "Implemented guardrails, evaluation, and observability for LLM-driven agents to ensure reliability, safety, and consistent output quality in production.",
+      "Collaborated cross-functionally to ship agentic AI features end-to-end, integrating FastAPI backends with React-based chat interfaces.",
+    ],
   },
+];
+
+export const INTERNSHIPS = [
   {
     role: "Ex-Software Developer Intern",
     company: "SAP Labs",
