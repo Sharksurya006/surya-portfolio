@@ -33,6 +33,14 @@ export const SKILLS = {
 
 export const EXPERIENCE = [
   {
+    role: "Software Development Engineer II (SDE-2)",
+    company: "Nierra Labs",
+    location: "Remote",
+    color: "purple",
+    icon: "🚀",
+    points: [],
+  },
+  {
     role: "Ex-Software Developer Intern",
     company: "SAP Labs",
     location: "Bengaluru, India",

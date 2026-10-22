@@ -17,7 +17,7 @@ export default function Experience() {
           <p className="font-mono text-[11px] text-accent-cyan tracking-widest mb-3">
             // work experience
           </p>
-          <h2 className="font-syne font-extrabold text-5xl text-text-primary">Internships</h2>
+          <h2 className="font-syne font-extrabold text-5xl text-text-primary">Experience</h2>
         </div>
 
         {/* Timeline */}
@@ -51,20 +51,24 @@ export default function Experience() {
                         {exp.company} · {exp.location}
                       </p>
                     </div>
-                    <span className={`font-mono text-[11px] px-3 py-1.5 rounded-full border whitespace-nowrap ${c.badge}`}>
-                      {exp.period}
-                    </span>
+                    {exp.period && (
+                      <span className={`font-mono text-[11px] px-3 py-1.5 rounded-full border whitespace-nowrap ${c.badge}`}>
+                        {exp.period}
+                      </span>
+                    )}
                   </div>
 
                   {/* Bullet points */}
-                  <ul className="mt-5 space-y-2.5">
-                    {exp.points.map((pt, j) => (
-                      <li key={j} className="flex gap-3 text-text-muted text-sm leading-relaxed">
-                        <span className={`flex-shrink-0 mt-1 ${c.text}`}>▹</span>
-                        {pt}
-                      </li>
-                    ))}
-                  </ul>
+                  {exp.points.length > 0 && (
+                    <ul className="mt-5 space-y-2.5">
+                      {exp.points.map((pt, j) => (
+                        <li key={j} className="flex gap-3 text-text-muted text-sm leading-relaxed">
+                          <span className={`flex-shrink-0 mt-1 ${c.text}`}>▹</span>
+                          {pt}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </div>
             );
